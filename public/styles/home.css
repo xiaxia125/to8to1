@@ -1,0 +1,669 @@
+body{
+    margin: 0;
+  }
+  .home{
+    margin-bottom:228px;
+    min-width: 1520px;
+  }
+  /* 轮播图 */
+  .bock{
+    width: 100%;
+    height: 460px;
+    min-width: 1520px;
+    position: relative;
+    overflow: hidden;
+  }
+  .d1{
+    width: 1520px;
+    height: 460px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  .bock .d1 img{
+    position: relative;
+    left: 50%;
+    height: 460px;
+  }
+  .el-carousel__item:nth-child(2n) {
+      background-color: #99a9bf;
+    }
+    
+  .el-carousel__item:nth-child(2n+1) {
+      background-color: #d3dce6;
+    }
+  /* 轮播图下五个块 */
+  .row_div{
+    width: 100%;
+    height: 150px;
+    min-width: 1520px;
+    position: relative;
+    background: rgb(240, 239, 239);
+    padding: 20px 0;
+    margin: 0 auto;
+  }
+  .row_div ul{
+    width: 1460px;
+    height: 140px;
+    margin: 0 auto;
+  }
+  .row_div li{
+    float: left;
+    margin-left: 20px;
+  }
+  .col_k{
+    width: 230px;
+    height: 65px;
+    padding: 38px 23px;
+    background-color: white;
+  }
+  .row_div .col_ksp{
+    float: left;
+    text-align: left;
+  }
+  .col_ksp h1{
+    font-size: 25px;
+    color: black;
+    line-height: 40px;
+  }
+  .col_ksp span{
+    color: rgb(82, 80, 80);
+    margin: 0;
+    font-size: 15px;
+  }
+  .col_k:hover{
+    box-shadow: 0px 9px 15px 0px rgb(204, 202, 207);
+    transform: translateY(-5px);
+  }
+  .row_div a img{
+    width: 85px;
+    height: 85px;
+    float: right;
+    margin-top: -11px;
+  }
+  /* 郑州装修公司 */
+  .rooms{
+    width: 100%;
+    height: 940px;
+    min-width: 1520px;
+  }
+  .rooms h1{
+    text-align: center;
+    margin-top: 150px;
+    font-size: 40px;
+    font-weight: 300;
+  }
+  .rooms_ddiv{
+    margin-top: 40px;
+    text-align: center;
+  }
+  .rooms_ddiv a{
+    border: 1px solid #d3dce6;
+    text-decoration:none;
+    color: #979797;
+    font-size: 25px;
+    margin-right: 20px;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .rooms_ddddiv{
+    margin: 0 auto;
+    width: 1460px;
+    height: 800px;
+    margin-top: 40px;
+  }
+  .rooms_dddddiv{
+    width: 350px;
+    height: 360px;
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 40px;
+  }
+  .rooms_divimg{
+    width: 350px;
+    height: 240px;
+    overflow: hidden;
+  }
+  .rooms_dddddiv img{
+    width: 350px;
+    height: 240px;
+    transition: all 2s;
+  
+  }
+  .rooms_dddddiv .rooms_img:hover{
+    transform:scale(1.2)
+  }
+  .rooms_ddddddiv .wuxing{
+    width: 74px;
+    height: 14px;
+    margin-top: -5px;
+    margin-right: 5px;
+  }
+  .rooms_ddddddiv{
+    margin-top: 20px;
+  }
+  .rooms_ddddddiv p{
+    font-size: 20px;
+    color: black;
+  }
+  .rooms_ddddddiv span{
+    font-size: 15px;
+    color: rgb(202, 202, 202);
+  }
+  .rooms_wxpl{
+    margin-top: 10px;
+  }
+  .rooms_dddddiv:hover{
+    box-shadow: 0px 9px 15px 0px rgb(204, 202, 207);
+    transform: translateY(-5px);
+  }
+  #gdgs{
+    font-size: 30px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  #gdgs a{
+    padding: 20px;
+    text-decoration: none;
+    border: 1px solid #d3dce6;
+    color: #979797;
+    border-radius: 10px;
+    margin-left: -100px;
+  }
+  /* 用户评论 */
+  .discuss{
+    width: 1460px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 140px;
+    min-width: 1520px;
+  }
+  .bgrgba1{
+    width: 635px;
+    height: 450px;
+    background: white;
+    margin:0 auto;
+    margin-top: 10%;
+    margin-left: 40px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .pl_img1 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    vertical-align:middle;
+  }
+  .bgrgba1_sp1{
+    margin-left: 20px;
+    font-size: 20px;
+    color: #000;
+  }
+  .bgrgba1_sp2{
+    position: relative;
+    top: 22px;
+    left: -101px;
+    font-size: 14px;
+    color: rgb(172, 169, 169);
+  }
+  .bgrgba1_p1{
+    font-size: 15px;
+    color: #2e2e2e;
+    margin-top: 20px;
+  }
+  .pl_img2 img{
+    width: 290px;
+    height: 195px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .discuss_pl{
+    width: 47%;
+    height: 600px;
+    background-image: url("../../public/imgs/index/discuss/bz_img2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+  }
+  .bgrgba2{
+    width: 804.8px;
+    height: 600px;
+    background: rgba(27, 23, 26, 0.8);
+    padding: 10% 0 0 10%;
+  }
+  .bgrgba2 .zxrj{
+    margin-bottom: 20px;
+  }
+  .bgrgba2 h1{
+    margin: 0;
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  .bgrgba2 p{
+    font-size: 20px;
+    color: #fff;
+  }
+  .discuss_head{
+    width: 53%;
+    height: 600px;
+    background-image: url("../../public/imgs/index/discuss/bz_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    overflow: hidden;
+  }
+  .ul_head{
+    width: 490px;
+    height: 324px;
+  }
+  .ul_head li{
+    width: 80px;
+    height: 80px; 
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .ul_head img{
+    width: 80px;
+    height: 80px;
+    border: 2px solid rgb(179, 179, 179);
+    border-radius: 50%;
+    vertical-align:middle;
+  }
+  /* 服务流程 */
+  .procedure{
+    width: 100%;
+    height: 384px;
+    min-width: 1520px;
+  }
+  .procedure h1{
+    margin: 0;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .procedure ul{
+    width: 1450px;
+    height: 342px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .procedure li{
+    width: 172px;
+    height: 187px;
+    margin-top: 20px;
+    margin-right: 30px;
+    display: inline-block;
+  }
+  .procedure li span{
+    font-size: 20px;
+  }
+  .procedure li img{
+    width: 60px;
+  }
+  /* 郑州装修图 */
+  .renovation{
+    width: 1460px;
+    height: 1050px;
+    text-align: center;
+    min-width: 1520px;
+    padding-top: 40px;
+    background-color: rgb(250, 249, 249);
+    margin: 0 auto;
+  }
+  .renovation h1{
+    font-size: 40px;
+    color: #000;
+    margin-bottom: 30px;
+  }
+  .renovation p{
+    color: rgb(172, 172, 172);
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  .renovation_div a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    margin-right: 20px;
+  }
+  .renovation_div a:hover{
+    color: aquamarine;
+  }
+  .renovation_div2{
+    width: 100%;
+    height: 700px;
+    margin-top: 40px;
+    float: left;
+  }
+  .renovation_ddiv1{
+    width: 27%;
+    height: 413px;
+    overflow: hidden;
+    float: left;
+  }
+  .renovation_ddiv2{
+    width: 30%;
+    height: 275px;
+    margin: 0 1.5%;
+    overflow: hidden;
+    float: left;
+  }
+  .renovation_ddiv3{
+    width: 40%;
+    height: 413px;
+    overflow: hidden;
+    float: left;
+  }
+  .renovation_ddiv4{
+    width: 27%;
+    height: 275px;
+    overflow: hidden;
+    margin: 12px 0;
+    float: left;
+  }
+  .renovation_ddiv5{
+    width: 30%;
+    height: 413px;
+    margin: 12px 1.5% 0;
+    overflow: hidden;
+    float: left;
+    position: relative;
+    top: -138px;
+  }
+  .renovation_ddiv6{
+    width: 40%;
+    height: 275px;
+    overflow: hidden;
+    margin: 12px 0;
+    float: left;
+  }
+  .renovation_ddiv1 img{
+    width: 100%;
+    height: 413px;
+    transition: all 2s;
+  }
+  .renovation_ddiv2 img{
+    width: 100%;
+    height: 275px;
+    transition: all 2s;
+  }
+  .renovation_ddiv3 img{
+    width: 100%;
+    height: 413px;
+    transition: all 2s;
+  }
+  .renovation_ddiv4 img{
+    width: 100%;
+    height: 275px;
+    transition: all 2s;
+  }
+  .renovation_ddiv5 img{
+    width: 100%;
+    height: 413px;
+    transition: all 2s;
+  }
+  .renovation_ddiv6 img{
+    width: 100%;
+    height: 275px;
+    transition: all 2s;
+  }
+  .renovation_div2 img:hover{
+    transform:scale(1.2)
+  }
+  /* 学攻略 */
+  .strategy{
+    width: 100%;
+    height: 735px;
+    padding-top: 40px;
+    overflow: hidden;
+    min-width: 1520px;
+  }
+  .strategy h1{
+    text-align: center;
+    font-size: 40px;
+    color: #000;
+    margin-bottom: 40px;
+  }
+  .strategy p{
+    color: rgb(172, 172, 172);
+    font-size: 20px;
+    text-align: center;
+  }
+  .strategy_div{
+    width: 1460px;
+    height: 550px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding-left: 60px;
+  }
+  .strategy_xdiv{
+    width: 348px;
+    height: 490px;
+    float: left;
+    transition: all 0.1s;
+    background-color: white;
+    border: 1px solid rgb(233, 233, 233);
+  }
+  .strategy_xdiv:hover{
+    transform:scale(1.1);
+  }
+  .strategy_xdiv2{
+    width: 348px;
+    height: 169px;
+    background-color: #f3f3f3;
+    padding-top: 40px;
+    text-align: center;
+  }
+  #strategy_1{
+    background-image: url('../../public/imgs/index/strategy/strategy_1.jpg');
+    background-size: 348px 230px;
+    background-repeat: no-repeat;
+  }
+  #strategy_2{
+    background-image: url('../../public/imgs/index/strategy/strategy_2.jpg');
+    background-size: 348px 230px;
+    background-repeat: no-repeat;
+  }
+  #strategy_3{
+    background-image: url('../../public/imgs/index/strategy/strategy_3.jpg');
+    background-size: 348px 230px;
+    background-repeat: no-repeat;
+  }
+  #strategy_4{
+    background-image: url('../../public/imgs/index/strategy/strategy_4.jpg');
+    background-size: 348px 230px;
+    background-repeat: no-repeat;
+  }
+  .strategy_xdiv3{
+    width: 348px;
+    height: 320px;
+    text-align: left;
+  }
+  .strategy_xdiv3 li{
+    padding: 5px;
+    color: #000000;
+    margin-top: 5px;
+    margin-left: 4px;
+  }
+  .strategy_xdiv2 h1{
+    margin: 0;
+    font-size: 25px;
+    font-weight: 300;
+    color: rgb(228, 228, 228);
+  }
+  .strategy_xdiv2 img{
+    width:48px;
+    height: 50px;
+  }
+  /* 广告 */
+  .advertisement{
+    width: 100%;
+    height: 60px;
+    margin-top: 40px;
+    overflow: hidden;
+    text-align: center;
+  }
+  /* 找建材 */
+  .building_material{
+    width: 100%;
+    height: 750px;
+    text-align: center;
+    min-width: 1520px;
+    padding-top: 40px;
+    background-color: white;
+    margin-bottom: 180px;
+  }
+  .building_material h1{
+    font-size: 40px;
+    color: #000;
+    margin-bottom: 20px;
+  }
+  .building_material p{
+    color: rgb(172, 172, 172);
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .building_material a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    margin-right: 20px;
+  }
+  .building_material a:hover{
+    color: aquamarine;
+  }
+  .building_material_div2{
+    width: 1460px;
+    height: 358px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+  .building_material_xdiv{
+    width: 480px;
+    height: 358px;
+    float: left;
+    margin-right: 10px;
+    overflow: hidden;
+      z-index: 1;
+  }
+  .building_material_xdiv2{
+    text-align: center;
+  }
+  .title_one h1{
+    font-size: 20px;
+  }
+  .title_one p{
+    font-size: 15px;
+  }
+  .title_one{
+    margin-top: 40px;
+    margin-left: 140px;
+  }
+  .title_one2{
+    margin-left: 170px;
+  }
+  .title_two{
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+  .title_two h1{
+    font-size: 20px;
+  }
+  .title_two p{
+    font-size: 15px;
+  }
+  .building_material_xdiv img{
+    width: 480px;
+    height: 358px;
+    transition: all 0.5s;
+  }
+  .building_material_xdiv img:hover{
+    transform:scale(1.1)
+  }
+  .building_material_xddiv{
+    width: 470px;
+    height: 175px;
+    margin-bottom:8px;
+    float: left;
+    margin-left: 10px;
+    overflow: hidden;
+    z-index: 1;
+  }
+  .building_material_xddiv img{
+    width: 480px;
+    height: 175px;
+    transition: all 2s;
+  }
+  .building_material_xddiv img:hover{
+    transform:scale(1.1)
+  }
+  .title{
+    position:absolute;
+    z-index: 3;
+  }
+  .brand{
+    width: 1460px;
+    height: 110px;
+    margin: 0 auto;
+    min-width: 1520px;
+  }
+  .brand img{
+    width: 243px;
+    height: 110px;
+    transition: all 2s;
+  }
+  .brand img:hover{
+    transform:scale(1.1)
+  }
+  .brand2{
+    width: 100%;
+    height:220px;
+    background-image: url("../../public/imgs/index/building_material/img10.jpg");
+    margin-top: 90px;
+    position: relative;
+    text-align:left;
+  }
+  .brand_div{
+    width: 1460px;
+    margin: 0 auto;
+  }
+  .img12{
+    width:148px;
+    height:217px;
+    position: relative;
+    display: inline-block;
+    left: 40px;
+  }
+  .img11{
+    width: 708px;
+    height: 73px;
+    position: relative;
+    display: inline-block;
+    top: -230px;
+    left: 750px;
+  }
+  .brand2_div{
+    width: 500px;
+    position: relative;
+    top: -170px;
+    left: 195px;
+  }
+
+  .brand2_div h1{
+    margin: 0;
+    font-size: 30px;
+    color: white;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  .brand2_div p{
+    margin: 0;
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+  }
